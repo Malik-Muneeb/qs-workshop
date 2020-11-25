@@ -8,6 +8,11 @@
 
 version 0.9.20
 [0;30;43m[WARN   ][0m : ---
+[0;30;43m[WARN   ][0m : Linting detected issues in: /home/ec2-user/environment/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+[0;30;43m[WARN   ][0m :     line 172 [2001] [Check if Parameters are Used] Parameter KeyPairName not used.
+[0;30;43m[WARN   ][0m :     line 177 [2001] [Check if Parameters are Used] Parameter NATInstanceType not used.
+[0;30;43m[WARN   ][0m :     line 420 [8001] [Check if Conditions are Used] Condition GovCloudCondition not used
+[0;30;43m[WARN   ][0m : ---
 [0;30;43m[WARN   ][0m : Linting detected issues in: /home/ec2-user/environment/qs-workshop/templates/workload.template.yaml
 [0;30;43m[WARN   ][0m :     line 71 [2001] [Check if Parameters are Used] Parameter PrivateSubnet1ID not used.
 [0;30;43m[WARN   ][0m :     line 74 [2001] [Check if Parameters are Used] Parameter PrivateSubnet2ID not used.
@@ -38,98 +43,93 @@ version 0.9.20
                                                                              dependency already enforced by a "Fn:GetAtt" at Reso
                                                                              urces/WorkloadStack/Properties/Parameters/VPCCIDR/Fn
                                                                              ::GetAtt
-[0;30;43m[WARN   ][0m : ---
-[0;30;43m[WARN   ][0m : Linting detected issues in: /home/ec2-user/environment/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template
-[0;30;43m[WARN   ][0m :     line 172 [2001] [Check if Parameters are Used] Parameter KeyPairName not used.
-[0;30;43m[WARN   ][0m :     line 177 [2001] [Check if Parameters are Used] Parameter NATInstanceType not used.
-[0;30;43m[WARN   ][0m :     line 420 [8001] [Check if Conditions are Used] Condition GovCloudCondition not used
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/screen-logs.txt
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/templates/workshop.template.yaml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/templates/workload.template.yaml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/templates/master.template.yaml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/ci/taskcat.yml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/ci/workshop_input.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/NOTICE.txt
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/LICENSE.txt
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template.yaml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-public.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-complete.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-sa-east-1.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-complete.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-public.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-complete.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/taskcat.yml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-defaults.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-dedicated.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-public.json
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/.github/workflows/master-docs-build.yml
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/services/metadata.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/services/index.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/regions/index.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/parameters/index.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/deployment_options.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/service_limits.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/specialized_knowledge.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/overview_target_and_usage.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/deploy_steps.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/_settings.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/regions.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/product_description.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/architecture.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/additional_info.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/licenses.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/faq_troubleshooting.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/pre-reqs.adoc
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/images/cfn_outputs.png
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/images/architecture_diagram.png
-[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-pc4xhqwy/qs-workshop/submodules/quickstart-aws-vpc/docs/images/aws-quickstart-graphic.png
-[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/screen-logs.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/templates/workshop.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/templates/workload.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/templates/master.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/ci/taskcat.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/ci/workshop_input.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/NOTICE.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/LICENSE.txt
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template.yaml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-sa-east-1.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-4az-complete.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/taskcat.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-defaults.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-dedicated.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/ci/aws-vpc-3az-public.json
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/.github/workflows/master-docs-build.yml
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/services/metadata.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/services/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/regions/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/generated/parameters/index.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/deployment_options.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/service_limits.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/specialized_knowledge.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/overview_target_and_usage.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/deploy_steps.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/_settings.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/regions.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/product_description.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/architecture.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/additional_info.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/licenses.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/faq_troubleshooting.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/partner_editable/pre-reqs.adoc
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/images/cfn_outputs.png
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/images/architecture_diagram.png
+[0;30;47m[S3: -> ][0m s3://tcat-qs-workshop-3hnxuooq/qs-workshop/submodules/quickstart-aws-vpc/docs/images/aws-quickstart-graphic.png
+[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
 [0;30;47m[INFO   ][0m : ┣ region: us-east-1
 [0;30;47m[INFO   ][0m : ┗ status: [0;30;47mCREATE_FAILED [0m
-[0;30;47m[INFO   ][0m : Reporting on arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3/bdbebd40-2f2d-11eb-9160-0e08ce19eddf
-[0;30;47m[INFO   ][0m : Deleting stack: arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3/bdbebd40-2f2d-11eb-9160-0e08ce19eddf
-[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+[0;30;47m[INFO   ][0m : Reporting on arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a/5473dda0-2f2f-11eb-88de-0e00b694b7f3
+[0;30;47m[INFO   ][0m : Deleting stack: arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a/5473dda0-2f2f-11eb-88de-0e00b694b7f3
+[0;30;47m[INFO   ][0m : ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
 [0;30;47m[INFO   ][0m : ┣ region: us-east-1
 [0;30;47m[INFO   ][0m : ┗ status: [0;30;47mOUT_OF_ORDER_EVENT [0m
-[0;30;41m[ERROR  ][0m : One or more stacks failed tests: {'arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3/bdbebd40-2f2d-11eb-9160-0e08ce19eddf': 'COMPLETE event not detected. Potential out-of-band action against the stack.'}
+[0;30;41m[ERROR  ][0m : One or more stacks failed tests: {'arn:aws:cloudformation:us-east-1:289533192652:stack/tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a/5473dda0-2f2f-11eb-88de-0e00b694b7f3': 'COMPLETE event not detected. Potential out-of-band action against the stack.'}
 Not in terminal, reprint now using normal build-in print function.
 
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mCREATE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
-         ┏ stack Ⓜ tCaT-qs-workshop-default-18b4d1950c224e6d811b675bb9c478f3
+         ┏ stack Ⓜ tCaT-qs-workshop-default-22e00c9bbca2419cb35c4bbfd8f1be6a
          ┣ region: us-east-1
          ┗ status: [0;30;47mDELETE_IN_PROGRESS[0m
